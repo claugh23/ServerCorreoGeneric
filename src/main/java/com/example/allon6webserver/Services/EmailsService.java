@@ -45,6 +45,7 @@ public class EmailsService implements IEmails {
                  "Client Name: "+emailInformation.getName()+"\n"+
                  "Client Email Address: "+emailInformation.getEmail()+"\n"+
                  "Client Phone Number: "+emailInformation.getPhone()+"\n"+
+                 "CLient Message: " +emailInformation.getMessage()+
                  "----------------------------------------- ------------------------------------------");
 
          mailSender.send(message);
